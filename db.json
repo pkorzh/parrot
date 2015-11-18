@@ -12,10 +12,27 @@
       "question": "Ok, telenor?",
       "answerOptions": [
         {
+          "id": 1,
           "answerOption": "Ok"
         },
         {
+          "id": 2,
           "answerOption": "Could be better"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "survey_id": 1,
+      "question": "Howdy?",
+      "answerOptions": [
+        {
+          "id": 1,
+          "answerOption": "Ok"
+        },
+        {
+          "id": 2,
+          "answerOption": "Same oldz"
         }
       ]
     }
