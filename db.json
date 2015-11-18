@@ -1,0 +1,23 @@
+{
+  "surveys": [
+    {
+      "id": 1,
+      "name": "JS Course in Karazina"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "survey_id": 1,
+      "question": "Ok, telenor?",
+      "answerOptions": [
+        {
+          "answerOption": "Ok"
+        },
+        {
+          "answerOption": "Could be better"
+        }
+      ]
+    }
+  ]
+}
