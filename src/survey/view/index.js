@@ -69,6 +69,18 @@ export class SurveyViewView {
 	}
 
 	postVote(answerOption, question) {
-		console.log(SessionHelper.id())
+		fetch('http://localhost:3000/answers', {
+			method: 'post',
+			headers: {
+				'Accept': 'application/json',
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({
+				session_id: SessionHelper.id(),
+				timestamp: Date.now() / 1000 | 0,
+				question: question,
+				answerOption: answerOption
+			})
+		})
 	}
 }
