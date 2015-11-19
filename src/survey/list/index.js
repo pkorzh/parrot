@@ -5,8 +5,9 @@ export class SurveyListView {
 		return tmpl
 	}
 
-	constructor(el) {
+	constructor(el, urlPrefix = '') {
 		this.el = el
+		this.urlPrefix = urlPrefix
 
 		fetch('http://localhost:3000/surveys')
 			.then(response => response.json())
@@ -29,7 +30,7 @@ export class SurveyListView {
 
 		a.appendChild(linkText)
 		a.title = survey.name
-		a.href = `#${survey.id}`
+		a.href = `#${this.urlPrefix}/${survey.id}`
 		a.classList.add('list-group-item')
 
 		return a

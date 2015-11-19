@@ -4,8 +4,16 @@ export class SurveyViewView {
 	constructor(el, survey_id) {
 		this.el = el
 		
-		fetch(`http://localhost:3000/questions?survey_id=${survey_id}`)
+		fetch(`http://localhost:3000/surveys/${survey_id}?_embed=questions`)
 			.then(response => response.json())
+			.then(survey => {
+				const h1 = document.createElement('h1')
+				h1.innerHTML = survey.name
+
+				this.el.appendChild(h1)
+
+				return survey.questions
+			})
 			.then(questions => this.renderQuestions(questions))
 	}
 
