@@ -39,1252 +39,180 @@
   ],
   "answers": [
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447851986,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448016318,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
       "id": 1
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852017,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448016319,
+      "questionId": 2,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 2
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852042,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Same oldz"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448016881,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 3
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852075,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448202295,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 4
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852094,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448202296,
+      "questionId": 2,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 5
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852131,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448204787,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 6
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852140,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Same oldz"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448204789,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
       "id": 7
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852245,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448204841,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 8
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852248,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448204852,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
       "id": 9
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852352,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448205487,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
       "id": 10
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852371,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448205488,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
       "id": 11
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852372,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448205492,
+      "questionId": 2,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 12
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852373,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
+      "sessionId": "x5aauuc2wq",
+      "timestamp": 1448205493,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 13
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447852374,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Same oldz"
-      },
+      "sessionId": "qx7p0nojil",
+      "timestamp": 1448205504,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 14
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931470,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
+      "sessionId": "qx7p0nojil",
+      "timestamp": 1448205507,
+      "questionId": 2,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 15
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931471,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
+      "sessionId": "635ltyecq4",
+      "timestamp": 1448205525,
+      "questionId": 2,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 16
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931472,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Same oldz"
-      },
+      "sessionId": "635ltyecq4",
+      "timestamp": 1448205528,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 17
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931620,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
+      "sessionId": "635ltyecq4",
+      "timestamp": 1448205558,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
       "id": 18
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931622,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
+      "sessionId": "h0q37oe5wu",
+      "timestamp": 1448205616,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
       "id": 19
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931623,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
+      "sessionId": "h0q37oe5wu",
+      "timestamp": 1448205617,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
       "id": 20
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931624,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Same oldz"
-      },
+      "sessionId": "djcimyspyc",
+      "timestamp": 1448205680,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
       "id": 21
     },
     {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931625,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
+      "sessionId": "djcimyspyc",
+      "timestamp": 1448205681,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
       "id": 22
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931626,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 23
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931627,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
-      "id": 24
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931765,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 25
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931766,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Same oldz"
-      },
-      "id": 26
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931767,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 27
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931768,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
-      "id": 28
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931768,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 29
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931775,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
-      "id": 30
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931777,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Same oldz"
-      },
-      "id": 31
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931850,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 32
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931851,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 33
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931852,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
-      "id": 34
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931854,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Same oldz"
-      },
-      "id": 35
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447931855,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 36
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447932697,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 37
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447932698,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
-      "id": 38
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447938277,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 39
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447938278,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 40
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447938868,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 41
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447938868,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 42
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447940397,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 43
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447940398,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 44
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447940497,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 45
-    },
-    {
-      "sessionId": "0qd7kbx69q",
-      "timestamp": 1447940498,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 46
-    },
-    {
-      "session_id": "0qd7kbx69q",
-      "timestamp": 1447941325,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
-      "id": 47
-    },
-    {
-      "session_id": "0qd7kbx69q",
-      "timestamp": 1447941325,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 48
-    },
-    {
-      "session_id": "0qd7kbx69q",
-      "timestamp": 1447941326,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 1,
-        "answerOption": "Ok"
-      },
-      "id": 49
-    },
-    {
-      "session_id": "0qd7kbx69q",
-      "timestamp": 1447941327,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
-      "id": 50
-    },
-    {
-      "session_id": "0qd7kbx69q",
-      "timestamp": 1447941380,
-      "question": {
-        "id": 2,
-        "surveyId": 1,
-        "question": "Howdy?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Same oldz"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Same oldz"
-      },
-      "id": 51
-    },
-    {
-      "session_id": "0qd7kbx69q",
-      "timestamp": 1447941381,
-      "question": {
-        "id": 1,
-        "surveyId": 1,
-        "question": "Ok, telenor?",
-        "answerOptions": [
-          {
-            "id": 1,
-            "answerOption": "Ok"
-          },
-          {
-            "id": 2,
-            "answerOption": "Could be better"
-          }
-        ]
-      },
-      "answerOption": {
-        "id": 2,
-        "answerOption": "Could be better"
-      },
-      "id": 52
     }
   ]
 }

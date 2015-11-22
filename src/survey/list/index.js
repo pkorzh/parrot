@@ -1,8 +1,9 @@
-import tmpl from './list.html!'
-
 export class SurveyListView {
 	static template() {
-		return tmpl
+		return `
+			<div class="list-group survey-list-group">
+			</div>
+		`
 	}
 
 	constructor(el, urlPrefix = '') {

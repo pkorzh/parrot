@@ -3,6 +3,7 @@ import {SessionHelper} from '../../session'
 export class SurveyViewView {
 	constructor(el, survey_id) {
 		this.el = el
+		this.survey_id = survey_id
 		
 		fetch(`http://localhost:3000/surveys/${survey_id}?_embed=questions`)
 			.then(response => response.json())
@@ -12,9 +13,8 @@ export class SurveyViewView {
 
 				this.el.appendChild(h1)
 
-				return survey.questions
+				this.renderQuestions(survey.questions)
 			})
-			.then(questions => this.renderQuestions(questions))
 	}
 
 	renderQuestions(questions) {
@@ -84,10 +84,11 @@ export class SurveyViewView {
 				'Content-Type': 'application/json'
 			},
 			body: JSON.stringify({
-				session_id: SessionHelper.id(),
+				sessionId: SessionHelper.id(),
 				timestamp: Date.now() / 1000 | 0,
-				question: question,
-				answerOption: answerOption
+				questionId: question.id,
+				answerOptionId: answerOption.id,
+				surveyId: this.survey_id
 			})
 		})
 	}
