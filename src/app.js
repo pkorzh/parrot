@@ -1,53 +1,91 @@
-import {SurveyListView} from './survey/list/index'
-import {SurveyViewView} from './survey/view/index'
-import {DashboardView} from './dashboard/index'
+import {
+    ListGroupView
+}
+from './list-group/index'
+import {
+    SurveyViewView
+}
+from './survey/view/index'
+import {
+    DashboardView
+}
+from './dashboard/index'
+import {
+    IdentityView
+}
+from './identity/index'
 
 export class App {
-	static start(container) {
-		const app = new App(container)
+    static start(container) {
+        const app = new App(container)
 
-		app.loop()
+        app.loop()
 
-		return app
-	}
+        return app
+    }
 
-	constructor(container) {
-		this.container = container
-	}
+    constructor(container) {
+        this.container = container
+    }
 
-	loop() {
-		let prevHash = window.location.hash
+    loop() {
+        this.route()
 
-		this.route(prevHash)
+        window.addEventListener('hashchange', this.route.bind(this), false)
+    }
 
-		window.setInterval(() => {
-			if (window.location.hash != prevHash) {
-				prevHash = window.location.hash
-				this.route(prevHash)
-			}
-		}, 100)
-	}
+    route() {
+        const hash = window.location.hash.replace('#', '')
 
-	route(hash) {
-		hash = hash.replace('#', '')
+        if (hash === '') {
 
-		if (hash === '') {
-			this.attach(SurveyListView, 'survey')
-		} else if (hash === 'dashboard') {
-			this.attach(SurveyListView, 'dashboard')
-		} else if (/^dashboard\/\d+$/.test(hash)) {
-			const survey_id = parseInt(/(\d+)/.exec(hash)[1], 10)
-			this.attach(DashboardView, survey_id)
-		} else if (/^survey\/\d+$/.test(hash)) {
-			const survey_id = parseInt(/(\d+)/.exec(hash)[1], 10)
-			this.attach(SurveyViewView, survey_id)
-		} else {
-			this.container.innerHTML = `404 - ${hash}`
-		}
-	}
+			fetch('http://localhost:3000/surveys')
+				.then(response => response.json())
+				.then(surveys => {
+					this.attach(ListGroupView, 'survey', surveys)
+				})
 
-	attach(ViewType, ...rest) {
-		this.container.innerHTML = ViewType.template ? ViewType.template() : ''
-		this.view = new ViewType(this.container, ...rest)
-	}
+        } else if (hash === 'identity') {
+
+            this.attach(IdentityView)
+
+        } else if (hash === 'dashboard') {
+
+			fetch('http://localhost:3000/surveys')
+				.then(response => response.json())
+				.then(surveys => {
+					this.attach(ListGroupView, 'dashboard', surveys)
+				})
+
+        } else if (/^dashboard\/\d+$/.test(hash)) {
+
+            const survey_id = parseInt(/(\d+)/.exec(hash)[1], 10)
+
+			fetch(`http://localhost:3000/surveys/${survey_id}?_embed=questions`)
+				.then(response => response.json())
+				.then(survey => {
+					this.attach(DashboardView, survey)
+				})
+
+        } else if (/^survey\/\d+$/.test(hash)) {
+
+        	const survey_id = parseInt(/(\d+)/.exec(hash)[1], 10)
+
+			fetch(`http://localhost:3000/surveys/${survey_id}?_embed=questions`)
+				.then(response => response.json())
+				.then(survey => {
+					this.attach(SurveyViewView, survey)
+				})
+
+        } else {
+
+            this.container.innerHTML = `404 - ${hash}`
+
+        }
+    }
+
+    attach(ViewType, ...rest) {
+        this.container.innerHTML = ViewType.template ? ViewType.template() : ''
+        this.view = new ViewType(this.container, ...rest)
+    }
 }

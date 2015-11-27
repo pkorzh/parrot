@@ -1,30 +1,54 @@
 import {SessionHelper} from '../../session'
 
 export class SurveyViewView {
-	constructor(el, survey_id) {
+	constructor(el, survey) {
 		this.el = el
-		this.survey_id = survey_id
 		
-		fetch(`http://localhost:3000/surveys/${survey_id}?_embed=questions`)
-			.then(response => response.json())
-			.then(survey => {
-				const h1 = document.createElement('h1')
-				h1.innerHTML = survey.name
+		const h1 = document.createElement('h1')
+		h1.innerHTML = survey.name
+		this.el.appendChild(h1)
 
-				this.el.appendChild(h1)
+		const h2 = document.createElement('h2')
+		h2.innerHTML = ''
+		this.el.appendChild(h2)
 
-				this.renderQuestions(survey.questions)
-			})
+		const questionPlaceholder = document.createElement('div')
+		this.el.appendChild(questionPlaceholder)
+
+		survey.questions.forEach(question => {
+			question.time = question.time || 10 * 1000
+		})
+
+		const totalQuestions = survey.questions.length
+
+		this.nextQuestion = () => {
+			this.nextQuestion.timeoutId ? clearTimeout(this.nextQuestion.timeoutId) : void 0
+
+			const question = survey.questions.shift()
+
+			questionPlaceholder.innerHTML = ''
+
+			if (!question) {
+				this.renderFinish()
+			} else {
+				h2.innerHTML = `Question ${totalQuestions - survey.questions.length} of ${totalQuestions}`
+
+				questionPlaceholder.appendChild(this.renderQuestion(question))
+
+				this.nextQuestion.timeoutId = setTimeout(_ => {
+					this.nextQuestion()
+				}, question.time)
+			}
+		}
+
+		this.nextQuestion()
 	}
 
-	renderQuestions(questions) {
-		const docfrag = document.createDocumentFragment()
+	renderFinish() {
+		const h1 = document.createElement('h1')
+		h1.innerHTML = 'Survey finished'
 
-		questions
-			.map(question => this.renderQuestion(question))
-			.map(questionEl => docfrag.appendChild(questionEl))
-
-		this.el.appendChild(docfrag)
+		this.el.appendChild(h1)
 	}
 
 	renderQuestion(question) {
@@ -45,9 +69,16 @@ export class SurveyViewView {
 		qAnswerOptionsEl.classList.add(`question-group-${question.id}`)
 		qEl.appendChild(qAnswerOptionsEl)
 
-		question.answerOptions
+		const qFooterEl = document.createElement('div')
+		qFooterEl.classList.add('panel-footer')
+		qEl.appendChild(qFooterEl)
+
+		const aoEls =  question.answerOptions
 			.map(answerOption => this.renderAnswerOption(answerOption, question))
-			.map(answerOptionEl => qAnswerOptionsEl.appendChild(answerOptionEl))
+			.map(answerOptionEl => {
+				qAnswerOptionsEl.appendChild(answerOptionEl)
+				return answerOptionEl
+			})
 
 		return docfrag
 	}
@@ -62,15 +93,17 @@ export class SurveyViewView {
 		a.classList.add('list-group-item')
 
 		a.onclick = event => {
-			Array.from(this.el.querySelectorAll(`.question-group-${question.id} > .list-group-item`)).forEach(el => {
-				el.classList.remove('active')
-			})
-
-			a.classList.add('active')
-
-			this.postVote(answerOption, question)
-
 			event.preventDefault()
+
+			if (!a.classList.contains('active')) {
+				Array.from(this.el.querySelectorAll(`.question-group-${question.id} > .list-group-item`)).forEach(el => {
+					el.classList.remove('active')
+				})
+
+				a.classList.add('active')
+
+				this.postVote(answerOption, question)
+			}
 		}
 
 		return a
@@ -90,6 +123,6 @@ export class SurveyViewView {
 				answerOptionId: answerOption.id,
 				surveyId: this.survey_id
 			})
-		})
+		}).then(this.nextQuestion.bind(this))
 	}
 }

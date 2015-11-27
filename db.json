@@ -35,6 +35,25 @@
           "answerOption": "Same oldz"
         }
       ]
+    },
+    {
+      "id": 3,
+      "surveyId": 1,
+      "question": "Angular vs Ember vs React",
+      "answerOptions": [
+        {
+          "id": 1,
+          "answerOption": "Angular"
+        },
+        {
+          "id": 2,
+          "answerOption": "Ember"
+        },
+        {
+          "id": 3,
+          "answerOption": "React"
+        }
+      ]
     }
   ],
   "answers": [
@@ -213,6 +232,1030 @@
       "answerOptionId": 2,
       "surveyId": 1,
       "id": 22
+    },
+    {
+      "sessionId": "2o691zzdf2",
+      "timestamp": 1448205841,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 23
+    },
+    {
+      "sessionId": "2o691zzdf2",
+      "timestamp": 1448205846,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 24
+    },
+    {
+      "sessionId": "buu5l4e0dr",
+      "timestamp": 1448205855,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 25
+    },
+    {
+      "sessionId": "buu5l4e0dr",
+      "timestamp": 1448205856,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 26
+    },
+    {
+      "sessionId": "djcimyspyc",
+      "timestamp": 1448205873,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 27
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531591,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 28
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531595,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 29
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531630,
+      "questionId": 2,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 30
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531717,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 31
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531718,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 32
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531720,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 33
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531746,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 34
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531748,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 35
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531749,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 36
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531751,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 37
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531751,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 38
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531752,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 39
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531752,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 40
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531752,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 41
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531752,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 42
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531753,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 43
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531754,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 44
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531754,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 45
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531754,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 46
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531757,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 47
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531757,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 48
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531757,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 49
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531758,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 50
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531758,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 51
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531758,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 52
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531758,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 53
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531758,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 54
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531758,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 55
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531758,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 56
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531759,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 57
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531759,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 58
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531759,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 59
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531759,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 60
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531759,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 61
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531759,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 62
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531760,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 63
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531760,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 64
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531760,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 65
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531766,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 66
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448531774,
+      "questionId": 2,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 67
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543068,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 68
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543068,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 69
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543069,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 70
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543069,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 71
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543069,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 72
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543069,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 73
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543069,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 74
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543069,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 75
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543070,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 76
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543070,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 77
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543070,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 78
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543070,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 79
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543070,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 80
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543071,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 81
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543071,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 82
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543071,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 83
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543080,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 84
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543080,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 85
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543080,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 86
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543080,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 87
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543080,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 88
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543081,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 89
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543081,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 90
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543081,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 91
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543081,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 92
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543082,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 93
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543083,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 94
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543084,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 95
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543084,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 96
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543084,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 97
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543085,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 98
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543085,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 99
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543090,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 100
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543095,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 101
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543095,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 102
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543097,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 103
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543146,
+      "questionId": 2,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 104
+    },
+    {
+      "sessionId": "83ocymjazw",
+      "timestamp": 1448543147,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 105
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543152,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 106
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543154,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 107
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543155,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 108
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543155,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 109
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543156,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 110
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543156,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 111
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543156,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 112
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543156,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 113
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543157,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 114
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543157,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 115
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543158,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 116
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543159,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 117
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543159,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 118
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543159,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 119
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543161,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 120
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543161,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 121
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543161,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 122
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543161,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 123
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543162,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 124
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543162,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 125
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543162,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 126
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543163,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 127
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543672,
+      "questionId": 3,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 128
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543675,
+      "questionId": 3,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 129
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543678,
+      "questionId": 3,
+      "answerOptionId": 3,
+      "surveyId": 1,
+      "id": 130
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543876,
+      "questionId": 3,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 131
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543889,
+      "questionId": 3,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 132
+    },
+    {
+      "sessionId": "8lhvh6fckk",
+      "timestamp": 1448543912,
+      "questionId": 3,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 133
+    },
+    {
+      "sessionId": "cx3lluk952",
+      "timestamp": 1448620074,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 134
+    },
+    {
+      "sessionId": "cx3lluk952",
+      "timestamp": 1448620080,
+      "questionId": 3,
+      "answerOptionId": 2,
+      "surveyId": 1,
+      "id": 135
+    },
+    {
+      "sessionId": "cx3lluk952",
+      "timestamp": 1448621799,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "surveyId": 1,
+      "id": 136
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448633823,
+      "questionId": 3,
+      "answerOptionId": 1,
+      "id": 137
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448633921,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "id": 138
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448633927,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "id": 139
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448634140,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "id": 140
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448634141,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "id": 141
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448634198,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "id": 142
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448634371,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "id": 143
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448634371,
+      "questionId": 2,
+      "answerOptionId": 1,
+      "id": 144
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448634372,
+      "questionId": 3,
+      "answerOptionId": 2,
+      "id": 145
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448634464,
+      "questionId": 1,
+      "answerOptionId": 1,
+      "id": 146
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448634464,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "id": 147
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448634465,
+      "questionId": 3,
+      "answerOptionId": 1,
+      "id": 148
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448635513,
+      "questionId": 2,
+      "answerOptionId": 2,
+      "id": 149
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448635515,
+      "questionId": 3,
+      "answerOptionId": 2,
+      "id": 150
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448635695,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "id": 151
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448635696,
+      "questionId": 2,
+      "answerOptionId": 1,
+      "id": 152
     }
   ]
 }

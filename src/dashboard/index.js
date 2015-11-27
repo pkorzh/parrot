@@ -4,26 +4,22 @@ import {SessionHelper} from '../session'
 const colors = ['#7E3817', '#C35817', '#EE9A4D', '#A0C544', '#348017', '#307D7E']
 
 export class DashboardView {
-	constructor(el, survey_id) {
+	constructor(el, survey) {
 		this.el = el
-		this.survey_id = survey_id
+		this.survey_id = survey.id
 
-		fetch(`http://localhost:3000/surveys/${survey_id}?_embed=questions`)
-			.then(response => response.json())
-			.then(survey => {
-				const h1 = document.createElement('h1')
-				h1.innerHTML = survey.name
+		const h1 = document.createElement('h1')
+		h1.innerHTML = survey.name
 
-				this.el.appendChild(h1)
+		this.el.appendChild(h1)
 
-				const docfrag = document.createDocumentFragment()
+		const docfrag = document.createDocumentFragment()
 
-				survey.questions
-					.map(question => this.renderQuestion(question, survey))
-					.map(questionEl => docfrag.appendChild(questionEl))
+		survey.questions
+			.map(question => this.renderQuestion(question, survey))
+			.map(questionEl => docfrag.appendChild(questionEl))
 
-				this.el.appendChild(docfrag)
-			})
+		this.el.appendChild(docfrag)
 	}
 
 	renderQuestion(question, survey) {
