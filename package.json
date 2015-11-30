@@ -1,9 +1,10 @@
 {
-  "name": "app",
+  "name": "parrot",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple voting app",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "jspm bundle-sfx src/app.js public/app.js"
   },
   "author": "Platon Korzh <platon@korzh.io>",
   "license": "ISC",

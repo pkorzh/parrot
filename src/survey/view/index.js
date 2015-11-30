@@ -15,8 +15,19 @@ export class SurveyViewView {
 		const questionPlaceholder = document.createElement('div')
 		this.el.appendChild(questionPlaceholder)
 
+		const startEl = document.createElement('button')
+		startEl.innerHTML = 'Start test'
+		startEl.classList.add('btn')
+		startEl.classList.add('btn-default')
+		startEl.classList.add('btn-block')
+		startEl.onclick = _ => {
+			this.nextQuestion()
+		}
+
+		questionPlaceholder.appendChild(startEl)
+
 		survey.questions.forEach(question => {
-			question.time = question.time || 10 * 1000
+			question.time = question.time || 1 * 60 * 1000
 		})
 
 		const totalQuestions = survey.questions.length
@@ -40,8 +51,6 @@ export class SurveyViewView {
 				}, question.time)
 			}
 		}
-
-		this.nextQuestion()
 	}
 
 	renderFinish() {
@@ -52,6 +61,8 @@ export class SurveyViewView {
 	}
 
 	renderQuestion(question) {
+		this.renderQuestion.timeoutId ? clearTimeout(this.renderQuestion.timeoutId) : void 0
+
 		const docfrag = document.createDocumentFragment()
 
 		const qEl = document.createElement('div')
@@ -79,6 +90,10 @@ export class SurveyViewView {
 				qAnswerOptionsEl.appendChild(answerOptionEl)
 				return answerOptionEl
 			})
+
+		this.renderQuestion.timeoutId = setTimeout(_ => {
+			aoEls.forEach(el => el.style.color = 'red')
+		}, Math.floor(question.time / 3 * 2))
 
 		return docfrag
 	}

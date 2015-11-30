@@ -1256,6 +1256,20 @@
       "questionId": 2,
       "answerOptionId": 1,
       "id": 152
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448636795,
+      "questionId": 1,
+      "answerOptionId": 2,
+      "id": 153
+    },
+    {
+      "sessionId": "o1p6ydb4eq",
+      "timestamp": 1448636797,
+      "questionId": 2,
+      "answerOptionId": 1,
+      "id": 154
     }
   ]
 }
