@@ -17,14 +17,11 @@ function getCookie(cname) {
 }
 
 export class SessionHelper {
-    static id() {
-    	let id = getCookie('parrot_session_id')
-
-    	if (id === void 0) {
-    		id = Math.random().toString(36).substr(2, 10)
-    		setCookie('parrot_session_id', id)
-    	}
-
-    	return id
+    static id(value = null) {
+        if (value != null) {
+            setCookie('parrot_identity', value)
+        } else {
+            return getCookie('parrot_identity')
+        }
     }
 }

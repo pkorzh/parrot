@@ -14,6 +14,10 @@ import {
     IdentityView
 }
 from './identity/index'
+import {
+    SessionHelper
+}
+from './session'
 
 export class App {
     static start(container) {
@@ -37,13 +41,18 @@ export class App {
     route() {
         const hash = window.location.hash.replace('#', '')
 
+        if (!SessionHelper.id() && hash !== 'identity') {
+            window.location.hash = '#identity'
+            return
+        }
+
         if (hash === '') {
 
-			fetch('http://localhost:3000/surveys')
-				.then(response => response.json())
-				.then(surveys => {
-					this.attach(ListGroupView, 'survey', surveys)
-				})
+            fetch('http://localhost:3000/surveys')
+                .then(response => response.json())
+                .then(surveys => {
+                    this.attach(ListGroupView, 'survey', surveys)
+                })
 
         } else if (hash === 'identity') {
 
@@ -51,31 +60,31 @@ export class App {
 
         } else if (hash === 'dashboard') {
 
-			fetch('http://localhost:3000/surveys')
-				.then(response => response.json())
-				.then(surveys => {
-					this.attach(ListGroupView, 'dashboard', surveys)
-				})
+            fetch('http://localhost:3000/surveys')
+                .then(response => response.json())
+                .then(surveys => {
+                    this.attach(ListGroupView, 'dashboard', surveys)
+                })
 
         } else if (/^dashboard\/\d+$/.test(hash)) {
 
             const survey_id = parseInt(/(\d+)/.exec(hash)[1], 10)
 
-			fetch(`http://localhost:3000/surveys/${survey_id}?_embed=questions`)
-				.then(response => response.json())
-				.then(survey => {
-					this.attach(DashboardView, survey)
-				})
+            fetch(`http://localhost:3000/surveys/${survey_id}?_embed=questions`)
+                .then(response => response.json())
+                .then(survey => {
+                    this.attach(DashboardView, survey)
+                })
 
         } else if (/^survey\/\d+$/.test(hash)) {
 
-        	const survey_id = parseInt(/(\d+)/.exec(hash)[1], 10)
+            const survey_id = parseInt(/(\d+)/.exec(hash)[1], 10)
 
-			fetch(`http://localhost:3000/surveys/${survey_id}?_embed=questions`)
-				.then(response => response.json())
-				.then(survey => {
-					this.attach(SurveyViewView, survey)
-				})
+            fetch(`http://localhost:3000/surveys/${survey_id}?_embed=questions`)
+                .then(response => response.json())
+                .then(survey => {
+                    this.attach(SurveyViewView, survey)
+                })
 
         } else {
 
@@ -87,5 +96,9 @@ export class App {
     attach(ViewType, ...rest) {
         this.container.innerHTML = ViewType.template ? ViewType.template() : ''
         this.view = new ViewType(this.container, ...rest)
+
+        if (typeof this.view.ready === 'function') {
+            this.view.ready()
+        }
     }
 }

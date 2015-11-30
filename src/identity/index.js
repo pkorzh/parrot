@@ -1,3 +1,5 @@
+import {SessionHelper} from '../session'
+
 export class IdentityView {
     static template() {
         return `
@@ -41,7 +43,7 @@ export class IdentityView {
 <form class="form-signin">
 	<h2 class="form-signin-heading">Please identify yourself</h2>
 	<label for="inputEmail" class="sr-only">Identity</label>
-	<input type="text" id="identity" class="form-control" placeholder="Aaron A. Aaronson" required="" autofocus="">
+	<input type="text" id="identity" name="identity" class="form-control" placeholder="Aaron A. Aaronson" required="" autofocus="">
 	<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 </form>
 		`
@@ -49,5 +51,13 @@ export class IdentityView {
 
     constructor(el) {
         this.el = el
+    }
+
+    ready() {
+    	this.el.querySelector('form').onsubmit = event => {
+    		event.preventDefault()
+    		SessionHelper.id(event.target.elements.identity.value)
+    		window.location.hash = '#'
+    	}
     }
 }
